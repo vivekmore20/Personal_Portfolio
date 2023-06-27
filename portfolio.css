@@ -1,0 +1,147 @@
+
+  
+  
+body{
+ 
+ background-color: whitesmoke;
+}
+.vivek{
+    height:800px;
+    width:600px;
+    background-image: url('images/study.jfif');
+}
+.nav-link{
+    padding-left: 1000px;
+}
+.text{
+  border: 2px solid black;
+  margin-left: 150px;
+ 
+  width:100px;
+  margin-top: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 10px;
+  background-color: aqua;
+}
+#viv{
+  margin-left: 140px;
+  padding-right: 0px;
+  margin-top:0px;
+  font-size: 70px;
+  color: whitesmoke;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#viv1{
+  margin-left: 140px;
+  padding-right: 0px;
+  margin-top:0px;
+  color: purple;
+  
+}
+ul{
+  list-style-type: none;
+  margin-left: 100px;
+}
+#section1{
+  background-color:aqua;
+  margin-top: 4px;
+  height: 700px;
+  margin-left: 0px;
+  background-image: url('program.avif');
+  
+  background-repeat: no-repeat;
+  background-size: 1520px 700px;
+}
+.imgviv{
+  padding-left: 20px;
+  padding-right: 00px;
+  height: 400px;
+  width: 200px;
+  border-radius: 600px;
+ 
+ 
+}
+.mh-about-inner{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.mh-about-img{
+  padding-left: 0px;
+}
+.list{
+  border:2px solid gray;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 15px;
+  cursor:pointer;
+  padding: 5px;
+  font-weight: bold;
+  background-color: gray;
+}
+.list:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.img-fluid{
+  cursror:pointer
+}
+.img-fluid:hover{
+    color: red;
+}
+.card{
+  
+}
+.card:hover{
+  /* color: black;
+  background-color: red; */
+  --_p: 100%
+ 
+}
+.card {
+  --s: 0.60em;   /* the thickness of the line */
+  --c: purple; /* the color */
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+.card-text{
+  font-size: 20px;
+}
+.edu{
+  font-size: 30px;
+  margin-left: -130px;
+}
+
+
+a:link{
+  text-decoration: none;
+}
+
+.conatct{
+  border: 5px solid white;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+
+}
+.h4{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#profilecard{
+  border-radius: 20px;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
